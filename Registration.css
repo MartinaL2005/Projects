@@ -1,0 +1,49 @@
+body {
+    background-color: #6b503f;
+    margin: 0 10px;
+    padding: 0;
+}
+
+header{
+    color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+label{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin: 60px;
+}
+
+input::placeholder{
+    color: white;
+}
+/* Styling for input fields */
+input[type="text"],
+input[type="password"] {
+    padding: 8px;
+    margin-bottom: 30px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #896a57;
+}
+button[type='submit']{
+    border-radius: 500px;
+    border: 15px solid white;
+    width: 150px;
+    float: right;
+    color:#6b503f;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+label[for='Remember']{
+    display: flex;
+    justify-content:flex-start;
+    align-content: left;
+    margin-right: 60px;
+}
